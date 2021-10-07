@@ -1,7 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Builder" />
+      <Folder Include="Factory" />
+      <Folder Include="Mediator" />
+      <Folder Include="Strategy" />
+    </ItemGroup>
 
 </Project>
