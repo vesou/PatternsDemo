@@ -1,0 +1,12 @@
+C:\repos\github\PatternsDemo\PatternsDemo.Api\bin\Debug\net5.0\PatternsDemo.Api.deps.json
+C:\repos\github\PatternsDemo\PatternsDemo.Api\bin\Debug\net5.0\PatternsDemo.Api.dll
+C:\repos\github\PatternsDemo\PatternsDemo.Api\bin\Debug\net5.0\ref\PatternsDemo.Api.dll
+C:\repos\github\PatternsDemo\PatternsDemo.Api\bin\Debug\net5.0\PatternsDemo.Api.pdb
+C:\repos\github\PatternsDemo\PatternsDemo.Api\obj\Debug\net5.0\PatternsDemo.Api.csproj.AssemblyReference.cache
+C:\repos\github\PatternsDemo\PatternsDemo.Api\obj\Debug\net5.0\PatternsDemo.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\github\PatternsDemo\PatternsDemo.Api\obj\Debug\net5.0\PatternsDemo.Api.AssemblyInfoInputs.cache
+C:\repos\github\PatternsDemo\PatternsDemo.Api\obj\Debug\net5.0\PatternsDemo.Api.AssemblyInfo.cs
+C:\repos\github\PatternsDemo\PatternsDemo.Api\obj\Debug\net5.0\PatternsDemo.Api.csproj.CoreCompileInputs.cache
+C:\repos\github\PatternsDemo\PatternsDemo.Api\obj\Debug\net5.0\PatternsDemo.Api.dll
+C:\repos\github\PatternsDemo\PatternsDemo.Api\obj\Debug\net5.0\ref\PatternsDemo.Api.dll
+C:\repos\github\PatternsDemo\PatternsDemo.Api\obj\Debug\net5.0\PatternsDemo.Api.pdb
