@@ -6,7 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternsDemo.Tests.Api", "T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{F9137EAE-EA48-408C-A4D1-DD1D9DDAD71D}"
 ProjectSection(SolutionItems) = preProject
-	Misc\README.md = Misc\README.md
+	Misc\DesignPatterns.png = Misc\DesignPatterns.png
+	Misc\Untitled Diagram.drawio = Misc\Untitled Diagram.drawio
 EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternsDemo.Api", "PatternsDemo.Api\PatternsDemo.Api.csproj", "{059D008D-DDFF-4A8D-BCA4-9DE7822BDDC8}"
