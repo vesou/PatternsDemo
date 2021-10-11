@@ -3,7 +3,7 @@
     /// <summary>
     /// Timing, Logging
     /// </summary>
-    public abstract class Drink
+    public abstract class Coffee
     {
         public virtual string GetDescription()
         {

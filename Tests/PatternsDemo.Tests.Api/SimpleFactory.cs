@@ -56,6 +56,9 @@ namespace PatternsDemo.Tests.Api
             pizza.Pack();
         }
         
+        
+        
+        
         /// if you want to extend it with different types of pizzerias you would extend it into abstract factory pattern
         /// and have an italian Factory (that can do all the types), and an AmericanFactory that makes thicker dough
     }

@@ -4,7 +4,7 @@ namespace PatternsDemo.Api.Decorator
 {
     public class Timer : Decorator
     {
-        public Timer(Drink drink) : base(drink)
+        public Timer(Coffee coffee) : base(coffee)
         {
         }
 
@@ -12,12 +12,12 @@ namespace PatternsDemo.Api.Decorator
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            var description = Drink.GetDescription();
+            var description = Coffee.GetDescription();
             sw.Stop();
             
             return $"{description}, takes {sw.ElapsedTicks} ticks";
         }
 
-        public override double Price() => Drink.Price();
+        public override double Price() => Coffee.Price();
     }
 }

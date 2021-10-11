@@ -1,6 +1,6 @@
 ﻿namespace PatternsDemo.Api.Decorator
 {
-    public class Espresso : Drink
+    public class Espresso : Coffee
     {
         public Espresso()
         {

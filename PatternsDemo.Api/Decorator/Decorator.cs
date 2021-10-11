@@ -1,12 +1,12 @@
 ﻿namespace PatternsDemo.Api.Decorator
 {
-    public abstract class Decorator : Drink
+    public abstract class Decorator : Coffee
     {
-        protected readonly Drink Drink;
+        protected readonly Coffee Coffee;
 
-        protected Decorator(Drink drink)
+        protected Decorator(Coffee coffee)
         {
-            Drink = drink;
+            Coffee = coffee;
         }
         
         public abstract override string GetDescription();

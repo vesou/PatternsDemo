@@ -2,12 +2,12 @@
 {
     public class Chocolate : Decorator
     {
-        public Chocolate(Drink drink) : base(drink)
+        public Chocolate(Coffee coffee) : base(coffee)
         {
         }
 
-        public override string GetDescription() => Drink.GetDescription() + " + Chocolate";
+        public override string GetDescription() => Coffee.GetDescription() + " + Chocolate";
 
-        public override double Price() => Drink.Price() + 0.30;
+        public override double Price() => Coffee.Price() + 0.30;
     }
 }

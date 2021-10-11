@@ -14,45 +14,50 @@ namespace PatternsDemo.Tests.Api
         [Test]
         public void SimpleDrink()
         {
-            Drink drink = new Espresso();
-            Assert.AreEqual(_message1, drink.ToString());
+            Coffee coffee = new Espresso();
+            Console.WriteLine(coffee);
+            Assert.AreEqual(_message1, coffee.ToString());
         }
         
         [Test]
         public void SimpleDrinkWithChocolate()
         {
-            Drink drink = new Espresso();
-            drink = new Chocolate(drink);
-            Assert.AreEqual(_message2, drink.ToString());
+            Coffee coffee = new Espresso();
+            coffee = new Chocolate(coffee);
+            Console.WriteLine(coffee);
+            Assert.AreEqual(_message2, coffee.ToString());
         }
         
         [Test]
         public void SimpleDrinkWithExtras()
         {
-            Drink drink = new Decaf();
-            drink = new Chocolate(drink);
-            drink = new SoyMilk(drink);
-            Assert.AreEqual(_message3, drink.ToString());
+            Coffee coffee = new Decaf();
+            coffee = new Chocolate(coffee);
+            coffee = new SoyMilk(coffee);
+            Console.WriteLine(coffee);
+            Assert.AreEqual(_message3, coffee.ToString());
         }
         
         [Test]
         public void DrinkWithTimer()
         {
-            Drink drink = new Decaf();
-            drink = new Chocolate(drink);
-            drink = new Timer(drink);
-            Assert.AreEqual("", drink.ToString());
+            Coffee coffee = new Decaf();
+            coffee = new Chocolate(coffee);
+            coffee = new Timer(coffee);
+            Console.WriteLine(coffee);
+            Assert.AreEqual("", coffee.ToString());
         }
         
         [Test]
         public void DrinkWithTimer2()
         {
-            Drink drink = new Decaf();
-            drink = new Chocolate(drink);
-            drink = new Timer(drink);
-            drink = new SoyMilk(drink);
-            drink = new Timer(drink);
-            Assert.AreEqual("", drink.ToString());
+            Coffee coffee = new Decaf();
+            coffee = new Chocolate(coffee);
+            coffee = new Timer(coffee);
+            coffee = new SoyMilk(coffee);
+            coffee = new Timer(coffee);
+            Console.WriteLine(coffee);
+            Assert.AreEqual("", coffee.ToString());
         }
         
         

@@ -2,12 +2,12 @@
 {
     public class SoyMilk : Decorator
     {
-        public SoyMilk(Drink drink) : base(drink)
+        public SoyMilk(Coffee coffee) : base(coffee)
         {
         }
 
-        public override string GetDescription() => Drink.GetDescription() + " + SoyMilk";
+        public override string GetDescription() => Coffee.GetDescription() + " + SoyMilk";
 
-        public override double Price() => Drink.Price() + 0.30;
+        public override double Price() => Coffee.Price() + 0.30;
     }
 }
