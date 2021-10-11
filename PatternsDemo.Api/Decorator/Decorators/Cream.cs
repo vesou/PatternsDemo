@@ -6,7 +6,7 @@
         {
         }
 
-        public override string GetDescription() => Drink.GetDescription() + ", Cream";
+        public override string GetDescription() => Drink.GetDescription() + " + Cream";
 
         public override double Price() => Drink.Price() + 0.30;
     }

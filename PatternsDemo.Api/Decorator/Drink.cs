@@ -1,5 +1,8 @@
 ﻿namespace PatternsDemo.Api.Decorator
 {
+    /// <summary>
+    /// Timing, Logging
+    /// </summary>
     public abstract class Drink
     {
         public virtual string GetDescription()
@@ -13,7 +16,7 @@
 
         public override string ToString()
         {
-            return $"{GetDescription()} {Price()}";
+            return $"{GetDescription()} costs {Price()}";
         }
     }
 }

@@ -35,6 +35,16 @@ namespace PatternsDemo.Tests.Api
             Assert.AreEqual(_message3, drink.ToString());
         }
         
+        [Test]
+        public void DrinkWithTimer()
+        {
+            Drink drink = new Decaf();
+            drink = new Chocolate(drink);
+            drink = new Timer(drink);
+            // drink = new SoyMilk(drink);
+            // drink = new Timer(drink);
+            Assert.AreEqual("", drink.ToString());
+        }
         
         
         
@@ -46,8 +56,9 @@ namespace PatternsDemo.Tests.Api
         
         
         
-        private string _message1 = "Small but mighty drink 1.99";
-        private string _message2 = "Small but mighty drink, Chocolate 2.29";
-        private string _message3 = "Decaffeinated drink, Chocolate, SoyMilk 3.09";
+        
+        private string _message1 = "Small but mighty drink costs 1.99";
+        private string _message2 = "Small but mighty drink + Chocolate costs 2.29";
+        private string _message3 = "Decaffeinated drink + Chocolate + SoyMilk costs 3.09";
     }
 }
