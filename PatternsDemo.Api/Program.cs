@@ -7,10 +7,6 @@ namespace PatternsDemo.Api
     {
         static void Main(string[] args)
         {
-            DecoratorMain decorator = new DecoratorMain();
-            decorator.Start();
-            
-            
         }
     }
 }

@@ -6,10 +6,4 @@
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Factory" />
-      <Folder Include="Mediator" />
-      <Folder Include="Strategy" />
-    </ItemGroup>
-
 </Project>

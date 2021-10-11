@@ -41,12 +41,19 @@ namespace PatternsDemo.Tests.Api
             Drink drink = new Decaf();
             drink = new Chocolate(drink);
             drink = new Timer(drink);
-            // drink = new SoyMilk(drink);
-            // drink = new Timer(drink);
             Assert.AreEqual("", drink.ToString());
         }
         
-        
+        [Test]
+        public void DrinkWithTimer2()
+        {
+            Drink drink = new Decaf();
+            drink = new Chocolate(drink);
+            drink = new Timer(drink);
+            drink = new SoyMilk(drink);
+            drink = new Timer(drink);
+            Assert.AreEqual("", drink.ToString());
+        }
         
         
         
