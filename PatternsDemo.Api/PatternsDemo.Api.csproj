@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Builder" />
       <Folder Include="Factory" />
       <Folder Include="Mediator" />
       <Folder Include="Strategy" />

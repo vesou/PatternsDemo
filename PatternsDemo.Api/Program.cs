@@ -1,4 +1,5 @@
 ﻿using System;
+using PatternsDemo.Api.Decorator;
 
 namespace PatternsDemo.Api
 {
@@ -6,7 +7,10 @@ namespace PatternsDemo.Api
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DecoratorMain decorator = new DecoratorMain();
+            decorator.Start();
+            
+            
         }
     }
 }
