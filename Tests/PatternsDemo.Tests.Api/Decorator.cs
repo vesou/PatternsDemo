@@ -48,6 +48,6 @@ namespace PatternsDemo.Tests.Api
         
         private string _message1 = "Small but mighty drink 1.99";
         private string _message2 = "Small but mighty drink, Chocolate 2.29";
-        private string _message3 = "Decaffeinated drink, Chocolate, SoyMilk 3.29";
+        private string _message3 = "Decaffeinated drink, Chocolate, SoyMilk 3.09";
     }
 }

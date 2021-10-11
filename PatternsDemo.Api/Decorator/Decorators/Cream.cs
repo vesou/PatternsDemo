@@ -2,15 +2,12 @@
 {
     public class Cream : Decorator
     {
-        private readonly Drink _drink;
-
-        public Cream(Drink drink)
+        public Cream(Drink drink) : base(drink)
         {
-            _drink = drink;
         }
 
-        public override string GetDescription() => _drink.GetDescription() + ", Cream";
+        public override string GetDescription() => Drink.GetDescription() + ", Cream";
 
-        public override double Price() => _drink.Price() + 0.20;
+        public override double Price() => Drink.Price() + 0.30;
     }
 }
